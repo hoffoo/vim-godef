@@ -49,6 +49,7 @@ function! Godef(arg)
         endif
         lexpr out
     end
+    normal! zz
     let &errorformat = old_errorformat
 endfunction
 
